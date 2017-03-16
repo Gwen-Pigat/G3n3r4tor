@@ -1,0 +1,86 @@
+.btn-grad-black{
+	background-color: #7d7e7d;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#000));
+	background-image: -webkit-linear-gradient(top, #7d7e7d, #000);
+	background-image: -moz-linear-gradient(top, #7d7e7d, #000);
+	background-image: -ms-linear-gradient(top, #7d7e7d, #000);
+	background-image: -o-linear-gradient(top, #7d7e7d, #000);
+	background-image: linear-gradient(to bottom, #7d7e7d,#000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#000);
+	color: #fff;
+	border: 2px #212121 solid;
+}
+.btn-grad-black:hover{
+	-moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	background-color: #fff;
+	background-image: none;
+	color: #000;
+	border: 2px #212121 solid;
+}
+
+
+.btn-grad-yellow{
+	background-color: #F9AB00;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F9AB00), to(#FFD474));
+	background-image: -webkit-linear-gradient(top, #F9AB00, #FFD474);
+	background-image: -moz-linear-gradient(top, #F9AB00, #FFD474);
+	background-image: -ms-linear-gradient(top, #F9AB00, #FFD474);
+	background-image: -o-linear-gradient(top, #F9AB00, #FFD474);
+	background-image: linear-gradient(to bottom, #F9AB00,#FFD474);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F9AB00, endColorstr=#FFD474);
+	color: #fff;
+	border: 2px #F9AB00 solid;
+}
+.btn-grad-yellow:hover{
+	-moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	background-color: #fff;
+	background-image: none;
+	color: #F9AB00;
+	border: 2px #F9AB00 solid;
+}
+
+.btn-grad-red{
+	background-color: #8D0000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#8D0000), to(#FE2222));
+	background-image: -webkit-linear-gradient(top, #8D0000, #FE2222);
+	background-image: -moz-linear-gradient(top, #8D0000, #FE2222);
+	background-image: -ms-linear-gradient(top, #8D0000, #FE2222);
+	background-image: -o-linear-gradient(top, #8D0000, #FE2222);
+	background-image: linear-gradient(to bottom, #8d0000,#fe2222);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#8D0000, endColorstr=#FE2222);
+	color: #fff;
+	border: 2px #8D0000 solid;
+}
+.btn-grad-red:hover{
+	-moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	background-color: #fff;
+	background-image: none;
+	color: #8D0000;
+	border: 2px #8D0000 solid;
+}
+
+.btn-abs{
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+
+.addon-black{
+	background-color: #212121;
+	border: 2px #212121 solid;
+	color: #fff;
+}
+.addon-red{
+	background-color: #8D0000;
+	border: 2px #8D0000 solid;
+	color: #fff;
+}
